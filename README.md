@@ -1,9 +1,7 @@
 ICpers
 ===
 
-<video>
-	<source src='_ICpers.mkv' type='video/mp4'>
-</video>
+![](_ICpers.gif)
 
 Idea:
 
