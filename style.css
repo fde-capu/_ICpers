@@ -1,0 +1,86 @@
+body {
+	
+	 font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+    background-color: black;
+    color: green;
+    font-size: 6pt;
+	margin:0;
+}
+
+.cursor {
+    background-color: green;
+  animation: blink 666 steps(33, start) infinite;
+  -webkit-animation: blink 666 steps(33, start) infinite;
+}
+
+.aftercursor {
+	height:5px;
+	width:5px;
+
+}
+
+
+@keyframes blink {
+  to {
+    background-color: transparent;
+  }
+}
+
+@-webkit-keyframes blink {
+  to {
+    background-color: transparent;
+  }
+}
+
+.allscreen {
+	width:300px;
+	height:240px;
+	position:fixed;
+	overflow:hidden;
+	top:0;
+	left:0;
+	margin: 8px;
+	border: .5px solid gray;
+	padding: 4.2px;
+	border-radius: 3.3px;
+	background-color:#030703;
+}
+
+.outscreen {
+	max-width: 360px; word-break: break-all;
+	max-height: 240px;
+	display:block; 
+}
+
+.iclist {
+	width:60px;
+	height:240px;
+	position:fixed;
+	overflow:auto;
+	top:0;
+	left:240px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.iclistyymarks {
+	font-size: 6pt;
+	line-height:3.5px;
+	position:absolute;
+	top:0;
+	max-height:100%;
+	}
+	
+.controllers {
+	width:100%;
+	height:10%;
+	position:fixed;
+	overflow:auto;
+	bottom:0;
+	left:0;
+}
+
+.yydot{
+	position:relative;
+	top:2px;
+	}
