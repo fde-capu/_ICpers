@@ -2,7 +2,7 @@ ICpers
 ===
 
 <video>
-	<source src='demo_ICpers.mkv'>
+	<source src='_ICpers.mkv' type='video/mp4'>
 </video>
 
 Idea:
